@@ -1,17 +1,19 @@
 import React from 'react';
+import Avatar from '@mui/material/Avatar';
+import { FaShare } from "react-icons/fa";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className='Header'>
-        <img 
-          src='logo512.png' 
-          alt='Share' 
-          className='share-icon' 
-        />
+        <FaShare className='share-icon' />
         <div className='profile-container'>
-          <div className='avatar'></div>
+          <Avatar 
+            alt="Chosen Vincent" 
+            src="./images/chosen.jpg" className='avatar'
+            sx={{width: 80, height: 80}}
+          />
           <h3 className='username'>Chosen Vincent</h3>
         </div>
       </header>
