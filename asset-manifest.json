@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Zuri-Task/static/css/main.6923c7f1.css",
+    "main.js": "/Zuri-Task/static/js/main.bd993dd2.js",
+    "index.html": "/Zuri-Task/index.html",
+    "main.6923c7f1.css.map": "/Zuri-Task/static/css/main.6923c7f1.css.map",
+    "main.bd993dd2.js.map": "/Zuri-Task/static/js/main.bd993dd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6923c7f1.css",
+    "static/js/main.bd993dd2.js"
+  ]
+}
