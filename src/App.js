@@ -1,7 +1,6 @@
 import React from 'react';
 import Avatar from '@mui/material/Avatar';
-import { FaShare, FaGithub } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { FaGithub } from "react-icons/fa";
 import './App.css';
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
         <img src='./images/share.png' className='share-icon' />
         <img src='./images/dots.png' className='dot-icon' />
         <div className='profile-container'>
-          <Avatar 
+          <Avatar
             alt="Chosen Vincent" 
             src="./images/chosen.jpg" className='avatar'
             sx={{width: 70, height: 70}}
